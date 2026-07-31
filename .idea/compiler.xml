@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="backend.main" target="25" />
-      <module name="backend.test" target="25" />
-      <module name="mamarek123" target="26" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="25" />
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="backend" options="-parameters" />
-      <module name="backend.main" options="-parameters" />
-      <module name="backend.test" options="-parameters" />
-      <module name="mamarek123" options="-parameters" />
-    </option>
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
   </component>
 </project>
