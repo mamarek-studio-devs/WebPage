@@ -1,6 +1,6 @@
-package pl.mamarek.backend.repository;
+package pl.mamarek.backend.blogpost.repository;
 
-import pl.mamarek.backend.model.BlogPost;
+import pl.mamarek.backend.blogpost.model.BlogPost;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
